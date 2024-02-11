@@ -1,0 +1,1468 @@
+# Reading pref.tcl
+# do SingleCycleMipsProcessor32Bits_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/alu/multiplexers {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers/mux_2x1_is_subtract.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:29 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers/mux_2x1_is_subtract.v 
+# -- Compiling module mux_2x1_is_subtract
+# 
+# Top level modules:
+# 	mux_2x1_is_subtract
+# End time: 10:27:29 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/alu/multiplexers {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers/mux_2x1_b_xor_is_subtract_4_bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:29 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers/mux_2x1_b_xor_is_subtract_4_bit.v 
+# -- Compiling module mux_2x1_b_xor_is_subtract_4_bit
+# 
+# Top level modules:
+# 	mux_2x1_b_xor_is_subtract_4_bit
+# End time: 10:27:30 on Jan 26,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/alu/custom_gates {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/custom_gates/custom_xor.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:30 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/custom_gates" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/custom_gates/custom_xor.v 
+# -- Compiling module custom_xor
+# 
+# Top level modules:
+# 	custom_xor
+# End time: 10:27:30 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/alu/custom_gates {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/custom_gates/custom_or.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:30 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/custom_gates" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/custom_gates/custom_or.v 
+# -- Compiling module custom_or
+# 
+# Top level modules:
+# 	custom_or
+# End time: 10:27:30 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/alu/carry_lookahead {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cll_4_input.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:30 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cll_4_input.v 
+# -- Compiling module cll_4_input
+# 
+# Top level modules:
+# 	cll_4_input
+# End time: 10:27:30 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/alu/carry_lookahead {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cla_16_bit_msb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:30 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cla_16_bit_msb.v 
+# -- Compiling module cla_16_bit_msb
+# 
+# Top level modules:
+# 	cla_16_bit_msb
+# End time: 10:27:30 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/alu/carry_lookahead {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cla_16_bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:30 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cla_16_bit.v 
+# -- Compiling module cla_16_bit
+# 
+# Top level modules:
+# 	cla_16_bit
+# End time: 10:27:30 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/alu/carry_lookahead {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cla_4_bit_msb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:30 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cla_4_bit_msb.v 
+# -- Compiling module cla_4_bit_msb
+# 
+# Top level modules:
+# 	cla_4_bit_msb
+# End time: 10:27:30 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/alu/carry_lookahead {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cla_4_bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:30 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cla_4_bit.v 
+# -- Compiling module cla_4_bit
+# 
+# Top level modules:
+# 	cla_4_bit
+# End time: 10:27:30 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/alu/arithmetic_logic_units {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/arithmetic_logic_units/alu_32_bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:30 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/arithmetic_logic_units" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/arithmetic_logic_units/alu_32_bit.v 
+# -- Compiling module alu_32_bit
+# 
+# Top level modules:
+# 	alu_32_bit
+# End time: 10:27:30 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/alu/arithmetic_logic_units {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/arithmetic_logic_units/alu_1_bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:30 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/arithmetic_logic_units" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/arithmetic_logic_units/alu_1_bit.v 
+# -- Compiling module alu_1_bit
+# 
+# Top level modules:
+# 	alu_1_bit
+# End time: 10:27:30 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/alu/multiplexers {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers/mux_3x1_alu_1_bit_res.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:30 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers/mux_3x1_alu_1_bit_res.v 
+# -- Compiling module mux_3x1_alu_1_bit_res
+# 
+# Top level modules:
+# 	mux_3x1_alu_1_bit_res
+# End time: 10:27:30 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/alu/multiplexers {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers/mux_2x1_results.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:31 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers/mux_2x1_results.v 
+# -- Compiling module mux_2x1_results
+# 
+# Top level modules:
+# 	mux_2x1_results
+# End time: 10:27:31 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/alu {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/zero_detection.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:31 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/zero_detection.v 
+# -- Compiling module zero_detection
+# 
+# Top level modules:
+# 	zero_detection
+# End time: 10:27:31 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/processor_modules {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/control_unit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:31 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/control_unit.v 
+# -- Compiling module control_unit
+# 
+# Top level modules:
+# 	control_unit
+# End time: 10:27:31 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/processor_modules {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/alu_control.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:31 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/alu_control.v 
+# -- Compiling module alu_control
+# 
+# Top level modules:
+# 	alu_control
+# End time: 10:27:31 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/processor_modules {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/sign_extend.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:31 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/sign_extend.v 
+# -- Compiling module sign_extend
+# 
+# Top level modules:
+# 	sign_extend
+# End time: 10:27:31 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/processor_modules {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/shift_left_2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:31 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/shift_left_2.v 
+# -- Compiling module shift_left_2
+# 
+# Top level modules:
+# 	shift_left_2
+# End time: 10:27:31 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/multiplexers {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mux_2_to_1_alu_ctr_select.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:31 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mux_2_to_1_alu_ctr_select.v 
+# -- Compiling module mux_2_to_1_alu_ctr_select
+# 
+# Top level modules:
+# 	mux_2_to_1_alu_ctr_select
+# End time: 10:27:31 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/multiplexers {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mux_5_to_1_define_alu_op.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:31 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mux_5_to_1_define_alu_op.v 
+# -- Compiling module mux_5_to_1_define_alu_op
+# 
+# Top level modules:
+# 	mux_5_to_1_define_alu_op
+# End time: 10:27:31 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/processor_modules {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/mips.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:31 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/mips.v 
+# -- Compiling module mips
+# 
+# Top level modules:
+# 	mips
+# End time: 10:27:31 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/multiplexers/mips_muxes {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mips_muxes/mux_2_to_1_32_bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:31 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mips_muxes" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mips_muxes/mux_2_to_1_32_bit.v 
+# -- Compiling module mux_2_to_1_32_bit
+# 
+# Top level modules:
+# 	mux_2_to_1_32_bit
+# End time: 10:27:31 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/processor_modules {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/adder_32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:32 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/adder_32.v 
+# -- Compiling module adder_32
+# 
+# Top level modules:
+# 	adder_32
+# End time: 10:27:32 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/multiplexers {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mux_5_to_1_define_alu_ctr_func.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:32 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mux_5_to_1_define_alu_ctr_func.v 
+# -- Compiling module mux_5_to_1_define_alu_ctr_func
+# 
+# Top level modules:
+# 	mux_5_to_1_define_alu_ctr_func
+# End time: 10:27:32 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/processor_modules {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/jump_extend.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:32 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/jump_extend.v 
+# -- Compiling module jump_extend
+# 
+# Top level modules:
+# 	jump_extend
+# End time: 10:27:32 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/multiplexers/mips_muxes {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mips_muxes/mux_2_to_1_reg_31.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:32 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mips_muxes" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mips_muxes/mux_2_to_1_reg_31.v 
+# -- Compiling module mux_2_to_1_reg_31
+# 
+# Top level modules:
+# 	mux_2_to_1_reg_31
+# End time: 10:27:32 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/multiplexers/mips_muxes {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mips_muxes/mux_2_to_1_5_bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:32 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mips_muxes" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mips_muxes/mux_2_to_1_5_bit.v 
+# -- Compiling module mux_2_to_1_5_bit
+# 
+# Top level modules:
+# 	mux_2_to_1_5_bit
+# End time: 10:27:32 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/processor_modules {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/register_block.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:32 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/register_block.v 
+# -- Compiling module register_block
+# 
+# Top level modules:
+# 	register_block
+# End time: 10:27:32 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/processor_modules {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/instruction_block.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:32 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/instruction_block.v 
+# -- Compiling module instruction_block
+# 
+# Top level modules:
+# 	instruction_block
+# End time: 10:27:32 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/processor_modules {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/memory_block.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:32 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/memory_block.v 
+# -- Compiling module memory_block
+# 
+# Top level modules:
+# 	memory_block
+# End time: 10:27:32 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/testbenches {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/testbenches/testbench_mips.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:27:32 on Jan 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/testbenches" C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/testbenches/testbench_mips.v 
+# -- Compiling module testbench_mips
+# 
+# Top level modules:
+# 	testbench_mips
+# End time: 10:27:32 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  testbench_mips
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" testbench_mips 
+# Start time: 10:27:32 on Jan 26,2024
+# Loading work.testbench_mips
+# Loading work.mips
+# Loading work.adder_32
+# Loading work.alu_32_bit
+# Loading work.mux_2x1_is_subtract
+# Loading work.cla_16_bit
+# Loading work.cla_4_bit
+# Loading work.mux_2x1_b_xor_is_subtract_4_bit
+# Loading work.custom_xor
+# Loading work.cll_4_input
+# Loading work.alu_1_bit
+# Loading work.custom_or
+# Loading work.mux_3x1_alu_1_bit_res
+# Loading work.cla_16_bit_msb
+# Loading work.cla_4_bit_msb
+# Loading work.mux_2x1_results
+# Loading work.zero_detection
+# Loading work.jump_extend
+# Loading work.mux_2_to_1_32_bit
+# Loading work.mux_2_to_1_reg_31
+# Loading work.shift_left_2
+# Loading work.instruction_block
+# Loading work.control_unit
+# Loading work.mux_5_to_1_define_alu_op
+# Loading work.sign_extend
+# Loading work.alu_control
+# Loading work.mux_5_to_1_define_alu_ctr_func
+# Loading work.mux_2_to_1_alu_ctr_select
+# Loading work.mux_2_to_1_5_bit
+# Loading work.register_block
+# Loading work.memory_block
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# AHA SUB = 0
+# 
+# NEGEDGE, regWrite 0
+# pc =          0, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =          5, reg =  8
+# 
+# NEGEDGE, regWrite 0
+# pc =          4, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =          8, reg = 16
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =          8, regWrite = 
+# branch = 1, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         12, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =          5, reg =  4
+# 
+# NEGEDGE, regWrite 0
+# pc =         16, regWrite = 
+# branch = 0, zero_bit = 1
+# 
+# 1, data =         20, reg = 31
+# 
+# NEGEDGE, regWrite 0
+# pc =         40, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =       2053, reg =  2
+# 
+# NEGEDGE, regWrite 0
+# pc =         44, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         20, reg =  0
+# 
+# NEGEDGE, regWrite 0
+# memory write       2053
+# 
+# pc =         20, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# pc =         24, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         12, reg = 16
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =         28, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =          4, reg =  8
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         32, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =          8, regWrite = 
+# branch = 1, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         12, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =          5, reg =  4
+# 
+# NEGEDGE, regWrite 0
+# pc =         16, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         20, reg = 31
+# 
+# NEGEDGE, regWrite 0
+# pc =         40, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =       2053, reg =  2
+# 
+# NEGEDGE, regWrite 0
+# pc =         44, regWrite = 
+# branch = 0, zero_bit = 1
+# 
+# 1, data =          0, reg =  0
+# 
+# NEGEDGE, regWrite 0
+# memory write       2053
+# 
+# pc =         20, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# pc =         24, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         16, reg = 16
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =         28, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =          3, reg =  8
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         32, regWrite = 
+# branch = 0, zero_bit = 1
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =          8, regWrite = 
+# branch = 1, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         12, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =          7, reg =  4
+# 
+# NEGEDGE, regWrite 0
+# pc =         16, regWrite = 
+# branch = 0, zero_bit = 1
+# 
+# 1, data =         20, reg = 31
+# 
+# NEGEDGE, regWrite 0
+# pc =         40, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =       2055, reg =  2
+# 
+# NEGEDGE, regWrite 0
+# pc =         44, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         20, reg =  0
+# 
+# NEGEDGE, regWrite 0
+# memory write       2055
+# 
+# pc =         20, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# pc =         24, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         20, reg = 16
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =         28, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =          2, reg =  8
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         32, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =          8, regWrite = 
+# branch = 1, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         12, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =          7, reg =  4
+# 
+# NEGEDGE, regWrite 0
+# pc =         16, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         20, reg = 31
+# 
+# NEGEDGE, regWrite 0
+# pc =         40, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =       2055, reg =  2
+# 
+# NEGEDGE, regWrite 0
+# pc =         44, regWrite = 
+# branch = 0, zero_bit = 1
+# 
+# 1, data =          0, reg =  0
+# 
+# NEGEDGE, regWrite 0
+# memory write       2055
+# 
+# pc =         20, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# pc =         24, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         24, reg = 16
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =         28, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =          1, reg =  8
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         32, regWrite = 
+# branch = 0, zero_bit = 1
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =          8, regWrite = 
+# branch = 1, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         12, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =          7, reg =  4
+# 
+# NEGEDGE, regWrite 0
+# pc =         16, regWrite = 
+# branch = 0, zero_bit = 1
+# 
+# 1, data =         20, reg = 31
+# 
+# NEGEDGE, regWrite 0
+# pc =         40, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =       2055, reg =  2
+# 
+# NEGEDGE, regWrite 0
+# pc =         44, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         20, reg =  0
+# 
+# NEGEDGE, regWrite 0
+# memory write       2055
+# 
+# pc =         20, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# pc =         24, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         28, reg = 16
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =         28, regWrite = 
+# branch = 0, zero_bit = 1
+# 
+# 1, data =          0, reg =  8
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         32, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =          8, regWrite = 
+# branch = 1, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         12, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =          7, reg =  4
+# 
+# NEGEDGE, regWrite 0
+# pc =         16, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         20, reg = 31
+# 
+# NEGEDGE, regWrite 0
+# pc =         40, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =       2055, reg =  2
+# 
+# NEGEDGE, regWrite 0
+# pc =         44, regWrite = 
+# branch = 0, zero_bit = 1
+# 
+# 1, data =          0, reg =  0
+# 
+# NEGEDGE, regWrite 0
+# memory write       2055
+# 
+# pc =         20, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# pc =         24, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         32, reg = 16
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =         28, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967295, reg =  8
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         32, regWrite = 
+# branch = 0, zero_bit = 1
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =          8, regWrite = 
+# branch = 1, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         12, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967295, reg =  4
+# 
+# NEGEDGE, regWrite 0
+# pc =         16, regWrite = 
+# branch = 0, zero_bit = 1
+# 
+# 1, data =         20, reg = 31
+# 
+# NEGEDGE, regWrite 0
+# pc =         40, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967295, reg =  2
+# 
+# NEGEDGE, regWrite 0
+# pc =         44, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         20, reg =  0
+# 
+# NEGEDGE, regWrite 0
+# memory write 4294967295
+# 
+# pc =         20, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# pc =         24, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         36, reg = 16
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =         28, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967294, reg =  8
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         32, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =          8, regWrite = 
+# branch = 1, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         12, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967295, reg =  4
+# 
+# NEGEDGE, regWrite 0
+# pc =         16, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         20, reg = 31
+# 
+# NEGEDGE, regWrite 0
+# pc =         40, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967295, reg =  2
+# 
+# NEGEDGE, regWrite 0
+# pc =         44, regWrite = 
+# branch = 0, zero_bit = 1
+# 
+# 1, data =          0, reg =  0
+# 
+# NEGEDGE, regWrite 0
+# memory write 4294967295
+# 
+# pc =         20, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# pc =         24, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         40, reg = 16
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =         28, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967293, reg =  8
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         32, regWrite = 
+# branch = 0, zero_bit = 1
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =          8, regWrite = 
+# branch = 1, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         12, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967295, reg =  4
+# 
+# NEGEDGE, regWrite 0
+# pc =         16, regWrite = 
+# branch = 0, zero_bit = 1
+# 
+# 1, data =         20, reg = 31
+# 
+# NEGEDGE, regWrite 0
+# pc =         40, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967295, reg =  2
+# 
+# NEGEDGE, regWrite 0
+# pc =         44, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         20, reg =  0
+# 
+# NEGEDGE, regWrite 0
+# memory write 4294967295
+# 
+# pc =         20, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# pc =         24, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         44, reg = 16
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =         28, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967292, reg =  8
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         32, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =          8, regWrite = 
+# branch = 1, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         12, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967295, reg =  4
+# 
+# NEGEDGE, regWrite 0
+# pc =         16, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         20, reg = 31
+# 
+# NEGEDGE, regWrite 0
+# pc =         40, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967295, reg =  2
+# 
+# NEGEDGE, regWrite 0
+# pc =         44, regWrite = 
+# branch = 0, zero_bit = 1
+# 
+# 1, data =          0, reg =  0
+# 
+# NEGEDGE, regWrite 0
+# memory write 4294967295
+# 
+# pc =         20, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# pc =         24, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         48, reg = 16
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =         28, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967291, reg =  8
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         32, regWrite = 
+# branch = 0, zero_bit = 1
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =          8, regWrite = 
+# branch = 1, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         12, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967295, reg =  4
+# 
+# NEGEDGE, regWrite 0
+# pc =         16, regWrite = 
+# branch = 0, zero_bit = 1
+# 
+# 1, data =         20, reg = 31
+# 
+# NEGEDGE, regWrite 0
+# pc =         40, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967295, reg =  2
+# 
+# NEGEDGE, regWrite 0
+# pc =         44, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         20, reg =  0
+# 
+# NEGEDGE, regWrite 0
+# memory write 4294967295
+# 
+# pc =         20, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# pc =         24, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         52, reg = 16
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =         28, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967290, reg =  8
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         32, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =          8, regWrite = 
+# branch = 1, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         12, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967295, reg =  4
+# 
+# NEGEDGE, regWrite 0
+# pc =         16, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         20, reg = 31
+# 
+# NEGEDGE, regWrite 0
+# pc =         40, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967295, reg =  2
+# 
+# NEGEDGE, regWrite 0
+# pc =         44, regWrite = 
+# branch = 0, zero_bit = 1
+# 
+# 1, data =          0, reg =  0
+# 
+# NEGEDGE, regWrite 0
+# memory write 4294967295
+# 
+# pc =         20, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# pc =         24, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         56, reg = 16
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =         28, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967289, reg =  8
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         32, regWrite = 
+# branch = 0, zero_bit = 1
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =          8, regWrite = 
+# branch = 1, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         12, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967295, reg =  4
+# 
+# NEGEDGE, regWrite 0
+# pc =         16, regWrite = 
+# branch = 0, zero_bit = 1
+# 
+# 1, data =         20, reg = 31
+# 
+# NEGEDGE, regWrite 0
+# pc =         40, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967295, reg =  2
+# 
+# NEGEDGE, regWrite 0
+# pc =         44, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         20, reg =  0
+# 
+# NEGEDGE, regWrite 0
+# memory write 4294967295
+# 
+# pc =         20, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# pc =         24, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         60, reg = 16
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =         28, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967288, reg =  8
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         32, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =          8, regWrite = 
+# branch = 1, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         12, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967295, reg =  4
+# 
+# NEGEDGE, regWrite 0
+# pc =         16, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         20, reg = 31
+# 
+# NEGEDGE, regWrite 0
+# pc =         40, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967295, reg =  2
+# 
+# NEGEDGE, regWrite 0
+# pc =         44, regWrite = 
+# branch = 0, zero_bit = 1
+# 
+# 1, data =          0, reg =  0
+# 
+# NEGEDGE, regWrite 0
+# memory write 4294967295
+# 
+# pc =         20, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# pc =         24, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         64, reg = 16
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =         28, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967287, reg =  8
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         32, regWrite = 
+# branch = 0, zero_bit = 1
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =          8, regWrite = 
+# branch = 1, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         12, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967295, reg =  4
+# 
+# NEGEDGE, regWrite 0
+# pc =         16, regWrite = 
+# branch = 0, zero_bit = 1
+# 
+# 1, data =         20, reg = 31
+# 
+# NEGEDGE, regWrite 0
+# pc =         40, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967295, reg =  2
+# 
+# NEGEDGE, regWrite 0
+# pc =         44, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         20, reg =  0
+# 
+# NEGEDGE, regWrite 0
+# memory write 4294967295
+# 
+# pc =         20, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# pc =         24, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         68, reg = 16
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =         28, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967286, reg =  8
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         32, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =          8, regWrite = 
+# branch = 1, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         12, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967295, reg =  4
+# 
+# NEGEDGE, regWrite 0
+# pc =         16, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         20, reg = 31
+# 
+# NEGEDGE, regWrite 0
+# pc =         40, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967295, reg =  2
+# 
+# NEGEDGE, regWrite 0
+# pc =         44, regWrite = 
+# branch = 0, zero_bit = 1
+# 
+# 1, data =          0, reg =  0
+# 
+# NEGEDGE, regWrite 0
+# memory write 4294967295
+# 
+# pc =         20, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# pc =         24, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         72, reg = 16
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =         28, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967285, reg =  8
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         32, regWrite = 
+# branch = 0, zero_bit = 1
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =          8, regWrite = 
+# branch = 1, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         12, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967295, reg =  4
+# 
+# NEGEDGE, regWrite 0
+# pc =         16, regWrite = 
+# branch = 0, zero_bit = 1
+# 
+# 1, data =         20, reg = 31
+# 
+# NEGEDGE, regWrite 0
+# pc =         40, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967295, reg =  2
+# 
+# NEGEDGE, regWrite 0
+# pc =         44, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         20, reg =  0
+# 
+# NEGEDGE, regWrite 0
+# memory write 4294967295
+# 
+# pc =         20, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# pc =         24, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         76, reg = 16
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =         28, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967284, reg =  8
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         32, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =          8, regWrite = 
+# branch = 1, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         12, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967295, reg =  4
+# 
+# NEGEDGE, regWrite 0
+# pc =         16, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         20, reg = 31
+# 
+# NEGEDGE, regWrite 0
+# pc =         40, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967295, reg =  2
+# 
+# NEGEDGE, regWrite 0
+# pc =         44, regWrite = 
+# branch = 0, zero_bit = 1
+# 
+# 1, data =          0, reg =  0
+# 
+# NEGEDGE, regWrite 0
+# memory write 4294967295
+# 
+# pc =         20, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# pc =         24, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         80, reg = 16
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =         28, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967283, reg =  8
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         32, regWrite = 
+# branch = 0, zero_bit = 1
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 1
+# 
+# pc =          8, regWrite = 
+# branch = 1, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# AHA SUB = 0
+# 
+# pc =         12, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967295, reg =  4
+# 
+# NEGEDGE, regWrite 0
+# pc =         16, regWrite = 
+# branch = 0, zero_bit = 1
+# 
+# 1, data =         20, reg = 31
+# 
+# NEGEDGE, regWrite 0
+# pc =         40, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data = 4294967295, reg =  2
+# 
+# NEGEDGE, regWrite 0
+# pc =         44, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# 1, data =         20, reg =  0
+# 
+# NEGEDGE, regWrite 0
+# memory write 4294967295
+# 
+# pc =         20, regWrite = 
+# branch = 0, zero_bit = 0
+# 
+# NEGEDGE, regWrite 0
+# ** Note: $finish    : C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/testbenches/testbench_mips.v(14)
+#    Time: 10230 ns  Iteration: 0  Instance: /testbench_mips
+# 1
+# Break in Module testbench_mips at C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/testbenches/testbench_mips.v line 14
+# End time: 10:29:27 on Jan 26,2024, Elapsed time: 0:01:55
+# Errors: 0, Warnings: 0

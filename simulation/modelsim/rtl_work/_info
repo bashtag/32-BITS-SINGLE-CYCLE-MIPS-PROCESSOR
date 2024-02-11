@@ -1,0 +1,755 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/simulation/modelsim
+vadder_32
+Z1 !s110 1706254052
+!i10b 1
+!s100 7b43SX3c24jJDS<gGE<dh3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IXYEMfPaP[NaDAT8F8g9bM0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1705658092
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/adder_32.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/adder_32.v
+!i122 22
+L0 1 21
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1706254052.000000
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/adder_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/adder_32.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work {+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules}
+Z8 tCvgOpt 0
+valu_1_bit
+Z9 !s110 1706254050
+!i10b 1
+!s100 kf_UZIkoA?UR2Z3B5]kGR3
+R2
+InREl`j0T2DUg:`]6ea@f31
+R3
+R0
+w1705162489
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/arithmetic_logic_units/alu_1_bit.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/arithmetic_logic_units/alu_1_bit.v
+!i122 10
+Z10 L0 1 39
+R4
+r1
+!s85 0
+31
+Z11 !s108 1706254050.000000
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/arithmetic_logic_units/alu_1_bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/arithmetic_logic_units|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/arithmetic_logic_units/alu_1_bit.v|
+!i113 1
+R6
+Z12 !s92 -vlog01compat -work work {+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/arithmetic_logic_units}
+R8
+valu_32_bit
+R9
+!i10b 1
+!s100 EGfbD^6`Kni2a4>BYQfdo0
+R2
+I>@o:E[`CcnIJ>@PJ^^Kk]2
+R3
+R0
+w1705680428
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/arithmetic_logic_units/alu_32_bit.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/arithmetic_logic_units/alu_32_bit.v
+!i122 9
+L0 1 46
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/arithmetic_logic_units/alu_32_bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/arithmetic_logic_units|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/arithmetic_logic_units/alu_32_bit.v|
+!i113 1
+R6
+R12
+R8
+valu_control
+Z13 !s110 1706254051
+!i10b 1
+!s100 O2RomEl@?2^<2@B^8_k7C0
+R2
+I`7SViRFe6@zbjFO>oD2L42
+R3
+R0
+w1705661791
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/alu_control.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/alu_control.v
+!i122 15
+L0 1 19
+R4
+r1
+!s85 0
+31
+Z14 !s108 1706254051.000000
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/alu_control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/alu_control.v|
+!i113 1
+R6
+R7
+R8
+vcla_16_bit
+R9
+!i10b 1
+!s100 4ojRNVOcek9hmIR1_2hMA3
+R2
+I:Ugc]Il<SkK3=:F^e5a5P1
+R3
+R0
+w1702211735
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cla_16_bit.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cla_16_bit.v
+!i122 6
+L0 1 68
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cla_16_bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cla_16_bit.v|
+!i113 1
+R6
+Z15 !s92 -vlog01compat -work work {+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead}
+R8
+vcla_16_bit_msb
+R9
+!i10b 1
+!s100 XT7f0UKUichllVAbzNohR2
+R2
+I7W9@o:lPk6?i<Cz>S`PY53
+R3
+R0
+w1702220077
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cla_16_bit_msb.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cla_16_bit_msb.v
+!i122 5
+L0 1 84
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cla_16_bit_msb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cla_16_bit_msb.v|
+!i113 1
+R6
+R15
+R8
+vcla_4_bit
+R9
+!i10b 1
+!s100 Ac?JFLX4BTEAYCaTNTgJ:0
+R2
+I]z7d7Pzl`?OU9QB__WX@a2
+R3
+R0
+w1702211181
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cla_4_bit.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cla_4_bit.v
+!i122 8
+L0 1 72
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cla_4_bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cla_4_bit.v|
+!i113 1
+R6
+R15
+R8
+vcla_4_bit_msb
+R9
+!i10b 1
+!s100 hn6_KV2o0kP5ZeXRY>bn]0
+R2
+IiYoDe?5UV3AeNi>J?BQoB1
+R3
+R0
+w1702218187
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cla_4_bit_msb.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cla_4_bit_msb.v
+!i122 7
+L0 1 76
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cla_4_bit_msb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cla_4_bit_msb.v|
+!i113 1
+R6
+R15
+R8
+vcll_4_input
+R9
+!i10b 1
+!s100 eTce_4J4?od4E[mXH3L^Q0
+R2
+IR9bebO:zLGa_9mE4^Q<`K2
+R3
+R0
+w1702206222
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cll_4_input.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cll_4_input.v
+!i122 4
+L0 1 33
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cll_4_input.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cll_4_input.v|
+!i113 1
+R6
+R15
+R8
+vcontrol_unit
+R13
+!i10b 1
+!s100 cX@`MeIcnD;Y^7SAY7L@[3
+R2
+IJT_9OzfR=:Ce8K<V7JRAQ3
+R3
+R0
+w1705691421
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/control_unit.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/control_unit.v
+!i122 14
+L0 1 62
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/control_unit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/control_unit.v|
+!i113 1
+R6
+R7
+R8
+vcustom_or
+R9
+!i10b 1
+!s100 @z@<m_<2hgfUJjnL5:5Dd0
+R2
+I@496?D:XzcX4UhFKoEQTf1
+R3
+R0
+w1702127422
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/custom_gates/custom_or.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/custom_gates/custom_or.v
+!i122 3
+Z16 L0 1 11
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/custom_gates/custom_or.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/custom_gates|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/custom_gates/custom_or.v|
+!i113 1
+R6
+Z17 !s92 -vlog01compat -work work {+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/custom_gates}
+R8
+vcustom_xor
+R9
+!i10b 1
+!s100 zb_Uee@1:eFk?0SY;bKd=2
+R2
+IK<;5Aa;>LOM39U^C7iC;m0
+R3
+R0
+w1702128010
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/custom_gates/custom_xor.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/custom_gates/custom_xor.v
+!i122 2
+L0 1 12
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/custom_gates/custom_xor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/custom_gates|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/custom_gates/custom_xor.v|
+!i113 1
+R6
+R17
+R8
+vinstruction_block
+R1
+!i10b 1
+!s100 nHY4RkAcAc];ohk25V7gF3
+R2
+IDcSnX]:nNG;9jIF042iV_1
+R3
+R0
+w1705647991
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/instruction_block.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/instruction_block.v
+!i122 28
+L0 1 17
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/instruction_block.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/instruction_block.v|
+!i113 1
+R6
+R7
+R8
+vjump_extend
+R1
+!i10b 1
+!s100 lJSUl@3M:i4>6EaQQ2@YI3
+R2
+I=Kiba`JMF;6>RN3>JFIi63
+R3
+R0
+w1705689674
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/jump_extend.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/jump_extend.v
+!i122 24
+R10
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/jump_extend.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/jump_extend.v|
+!i113 1
+R6
+R7
+R8
+vmemory_block
+R1
+!i10b 1
+!s100 0KBm;[>ZH:PiiYTdkPI6X3
+R2
+Inh18CzG:GfUe:J2QQo9>C3
+R3
+R0
+w1705686904
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/memory_block.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/memory_block.v
+!i122 29
+L0 1 52
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/memory_block.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/memory_block.v|
+!i113 1
+R6
+R7
+R8
+vmips
+R13
+!i10b 1
+!s100 :d<dBLn5<H>TNG3]1nK[22
+R2
+I2UQa`6M;>Enn0iKI3GzZ]1
+R3
+R0
+w1705698247
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/mips.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/mips.v
+!i122 20
+L0 2 243
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/mips.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/mips.v|
+!i113 1
+R6
+R7
+R8
+vmux_2_to_1_32_bit
+R13
+!i10b 1
+!s100 nFSDkd@QakNCmfTG7NnkD2
+R2
+In9W[YF3jhLVNod9TPmiPK0
+R3
+R0
+w1705656309
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mips_muxes/mux_2_to_1_32_bit.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mips_muxes/mux_2_to_1_32_bit.v
+!i122 21
+L0 1 137
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mips_muxes/mux_2_to_1_32_bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mips_muxes|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mips_muxes/mux_2_to_1_32_bit.v|
+!i113 1
+R6
+Z18 !s92 -vlog01compat -work work {+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mips_muxes}
+R8
+vmux_2_to_1_5_bit
+R1
+!i10b 1
+!s100 60dI><S]8eX:OMc=0F;j23
+R2
+I=z3VIP1a7b2K8KiBOKmT53
+R3
+R0
+w1705692597
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mips_muxes/mux_2_to_1_5_bit.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mips_muxes/mux_2_to_1_5_bit.v
+!i122 26
+L0 1 29
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mips_muxes/mux_2_to_1_5_bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mips_muxes|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mips_muxes/mux_2_to_1_5_bit.v|
+!i113 1
+R6
+R18
+R8
+vmux_2_to_1_alu_ctr_select
+R13
+!i10b 1
+!s100 l4M`S_m9?=5;le2e=dnn81
+R2
+IXTenQLQ6lPi^3XK?A6U9K0
+R3
+R0
+w1705661047
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mux_2_to_1_alu_ctr_select.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mux_2_to_1_alu_ctr_select.v
+!i122 18
+L0 1 23
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mux_2_to_1_alu_ctr_select.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mux_2_to_1_alu_ctr_select.v|
+!i113 1
+R6
+Z19 !s92 -vlog01compat -work work {+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers}
+R8
+vmux_2_to_1_reg_31
+R1
+!i10b 1
+!s100 WA8o3a`@l7oQ6dJVTzS^n2
+R2
+IG=^`N<nm2[KNm7_]9OYSM2
+R3
+R0
+w1705691140
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mips_muxes/mux_2_to_1_reg_31.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mips_muxes/mux_2_to_1_reg_31.v
+!i122 25
+L0 1 28
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mips_muxes/mux_2_to_1_reg_31.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mips_muxes|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mips_muxes/mux_2_to_1_reg_31.v|
+!i113 1
+R6
+R18
+R8
+vmux_2x1_b_xor_is_subtract_4_bit
+R9
+!i10b 1
+!s100 LX9LkkAN`X62XPXbgZ>Sz2
+R2
+Ic<n6M]i9jR6Pf=o9inJ960
+R3
+R0
+w1702211959
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers/mux_2x1_b_xor_is_subtract_4_bit.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers/mux_2x1_b_xor_is_subtract_4_bit.v
+!i122 1
+L0 1 37
+R4
+r1
+!s85 0
+31
+Z20 !s108 1706254049.000000
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers/mux_2x1_b_xor_is_subtract_4_bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers/mux_2x1_b_xor_is_subtract_4_bit.v|
+!i113 1
+R6
+Z21 !s92 -vlog01compat -work work {+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers}
+R8
+vmux_2x1_is_subtract
+!s110 1706254049
+!i10b 1
+!s100 oWmO3Bkf2Xa]<GVZgfT^_2
+R2
+Ikj56IO;FA4Ek0ee`?ET]E2
+R3
+R0
+w1702133103
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers/mux_2x1_is_subtract.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers/mux_2x1_is_subtract.v
+!i122 0
+R16
+R4
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers/mux_2x1_is_subtract.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers/mux_2x1_is_subtract.v|
+!i113 1
+R6
+R21
+R8
+vmux_2x1_results
+R13
+!i10b 1
+!s100 33i4:GZSUY14hENV;45Pk3
+R2
+IGmcg1XI2EGTEaP2JU^=5M0
+R3
+R0
+w1705168588
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers/mux_2x1_results.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers/mux_2x1_results.v
+!i122 12
+L0 1 50
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers/mux_2x1_results.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers/mux_2x1_results.v|
+!i113 1
+R6
+R21
+R8
+vmux_3x1_alu_1_bit_res
+R9
+!i10b 1
+!s100 Kg3JWJQ10h`1]0TedPO]^1
+R2
+I:V1ll@l_cfaeLb]fHYE;M3
+R3
+R0
+w1705162454
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers/mux_3x1_alu_1_bit_res.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers/mux_3x1_alu_1_bit_res.v
+!i122 11
+L0 1 27
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers/mux_3x1_alu_1_bit_res.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers/mux_3x1_alu_1_bit_res.v|
+!i113 1
+R6
+R21
+R8
+vmux_5_to_1_define_alu_ctr_func
+R1
+!i10b 1
+!s100 I@fc]a@6feWmYBFTOHVF>2
+R2
+Io;;K;O3>e>fYfkHhnoOoD3
+R3
+R0
+w1705666585
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mux_5_to_1_define_alu_ctr_func.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mux_5_to_1_define_alu_ctr_func.v
+!i122 23
+L0 1 45
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mux_5_to_1_define_alu_ctr_func.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mux_5_to_1_define_alu_ctr_func.v|
+!i113 1
+R6
+R19
+R8
+vmux_5_to_1_define_alu_op
+R13
+!i10b 1
+!s100 lid:o<=3]lU2jPQ;_zIHn1
+R2
+In8FQZiG5]oUV`[dkzKW=N1
+R3
+R0
+w1705680420
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mux_5_to_1_define_alu_op.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mux_5_to_1_define_alu_op.v
+!i122 19
+L0 1 65
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mux_5_to_1_define_alu_op.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mux_5_to_1_define_alu_op.v|
+!i113 1
+R6
+R19
+R8
+vregister_block
+R1
+!i10b 1
+!s100 WRI31XYSzA]e<dL47<L>F3
+R2
+Ie`Fj0<nA7d6o7MGoczX:O1
+R3
+R0
+w1705693837
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/register_block.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/register_block.v
+!i122 27
+L0 2 32
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/register_block.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/register_block.v|
+!i113 1
+R6
+R7
+R8
+vshift_left_2
+R13
+!i10b 1
+!s100 Ef<Kj9jZMHA]7=6DnGo`12
+R2
+I^Zmg@;3R<K:Q9ddGnO1aZ0
+R3
+R0
+w1705658275
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/shift_left_2.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/shift_left_2.v
+!i122 17
+R10
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/shift_left_2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/shift_left_2.v|
+!i113 1
+R6
+R7
+R8
+vsign_extend
+R13
+!i10b 1
+!s100 ^mCNd9mdzWPmATD?lHl:C1
+R2
+ICJUiXloz?hWH@]kMh;cO`0
+R3
+R0
+w1705658341
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/sign_extend.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/sign_extend.v
+!i122 16
+R10
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/sign_extend.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/sign_extend.v|
+!i113 1
+R6
+R7
+R8
+vtestbench_mips
+R1
+!i10b 1
+!s100 0D>m>kLbLFRQJEabi?Bbo1
+R2
+ID`UY<BLOE8UC?8d5B`D9e3
+R3
+R0
+w1705696157
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/testbenches/testbench_mips.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/testbenches/testbench_mips.v
+!i122 30
+L0 2 19
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/testbenches/testbench_mips.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/testbenches|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/testbenches/testbench_mips.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work {+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/testbenches}
+R8
+vzero_detection
+R13
+!i10b 1
+!s100 M`ekU=3jz>Sz7?DD7SXD20
+R2
+I8ZoL3<iKddX5F`M4:@WG`2
+R3
+R0
+w1705680150
+8C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/zero_detection.v
+FC:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/zero_detection.v
+!i122 13
+R10
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/zero_detection.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu|C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/zero_detection.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work {+incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu}
+R8

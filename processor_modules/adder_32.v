@@ -1,0 +1,21 @@
+module adder_32(
+	output [31:0] result,
+	input [31:0] src1,
+	input [31:0] src2
+);
+	wire [2:0] ALUop;
+	wire zero_bit;
+
+	buf buf0(ALUop[0], 1'b1);
+	buf buf1(ALUop[1], 1'b0);
+	buf buf2(ALUop[2], 1'b1);
+
+	alu_32_bit alu0(
+		.result(result),
+		.zero_bit(zero_bit),
+		.alu_src1(src1),
+		.alu_src2(src2),
+		.alu_ctr(ALUop)
+	);
+
+endmodule

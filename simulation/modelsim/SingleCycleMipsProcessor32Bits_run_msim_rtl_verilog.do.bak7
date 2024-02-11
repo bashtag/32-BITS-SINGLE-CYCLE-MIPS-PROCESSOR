@@ -1,0 +1,44 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/alu/multiplexers {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers/mux_2x1_is_subtract.v}
+vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/alu/multiplexers {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers/mux_2x1_b_xor_is_subtract_4_bit.v}
+vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/alu/custom_gates {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/custom_gates/custom_xor.v}
+vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/alu/custom_gates {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/custom_gates/custom_or.v}
+vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/alu/carry_lookahead {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cll_4_input.v}
+vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/alu/carry_lookahead {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cla_16_bit_msb.v}
+vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/alu/carry_lookahead {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cla_16_bit.v}
+vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/alu/carry_lookahead {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cla_4_bit_msb.v}
+vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/alu/carry_lookahead {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/carry_lookahead/cla_4_bit.v}
+vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/alu/arithmetic_logic_units {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/arithmetic_logic_units/alu_32_bit.v}
+vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/alu/arithmetic_logic_units {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/arithmetic_logic_units/alu_1_bit.v}
+vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/alu/multiplexers {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers/mux_3x1_alu_1_bit_res.v}
+vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/alu/multiplexers {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/multiplexers/mux_2x1_results.v}
+vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/alu {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/alu/zero_detection.v}
+vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/processor_modules {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/control_unit.v}
+vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/processor_modules {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/alu_control.v}
+vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/processor_modules {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/sign_extend.v}
+vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/processor_modules {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/shift_left_2.v}
+vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/multiplexers {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mux_2_to_1_alu_ctr_select.v}
+vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/multiplexers {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mux_5_to_1_define_alu_op.v}
+vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/processor_modules {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/mips.v}
+vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/multiplexers/mips_muxes {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mips_muxes/mux_2_to_1_write_reg.v}
+vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/multiplexers/mips_muxes {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mips_muxes/mux_2_to_1_32_bit.v}
+vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/processor_modules {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/adder_32.v}
+vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/multiplexers {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/multiplexers/mux_5_to_1_define_alu_ctr_func.v}
+vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/processor_modules {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/register_block.v}
+vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/processor_modules {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/instruction_block.v}
+vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/processor_modules {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/memory_block.v}
+
+vlog -vlog01compat -work work +incdir+C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer\ Organization/Project3/testbenches {C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/testbenches/testbench_instruction_block.v}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  testbench_instruction_block
+
+add wave *
+view structure
+view signals
+run -all

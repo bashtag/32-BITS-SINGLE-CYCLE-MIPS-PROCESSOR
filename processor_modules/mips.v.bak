@@ -1,0 +1,5 @@
+module mips(
+	input CLK
+);
+
+endmodule

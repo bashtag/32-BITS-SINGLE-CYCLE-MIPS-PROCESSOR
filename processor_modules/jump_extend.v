@@ -1,0 +1,39 @@
+module jump_extend(
+	output [31:0] result,
+	input [25:0] address
+);
+
+	buf buf0(result[31], 1'b0);
+	buf buf1(result[30], 1'b0);
+	buf buf2(result[29], 1'b0);
+	buf buf3(result[28], 1'b0);
+	buf buf4(result[27], 1'b0);
+	buf buf5(result[26], 1'b0);
+	buf buf6(result[25], address[25]);
+	buf buf7(result[24], address[24]);
+	buf buf8(result[23], address[23]);
+	buf buf9(result[22], address[22]);
+	buf buf10(result[21], address[21]);
+	buf buf11(result[20], address[20]);
+	buf buf12(result[19], address[19]);
+	buf buf13(result[18], address[18]);
+	buf buf14(result[17], address[17]);
+	buf buf15(result[16], address[16]);
+	buf buf16(result[15], address[15]);
+	buf buf17(result[14], address[14]);
+	buf buf18(result[13], address[13]);
+	buf buf19(result[12], address[12]);
+	buf buf20(result[11], address[11]);
+	buf buf21(result[10], address[10]);
+	buf buf22(result[9], address[9]);
+	buf buf23(result[8], address[8]);
+	buf buf24(result[7], address[7]);
+	buf buf25(result[6], address[6]);
+	buf buf26(result[5], address[5]);
+	buf buf27(result[4], address[4]);
+	buf buf28(result[3], address[3]);
+	buf buf29(result[2], address[2]);
+	buf buf30(result[1], address[1]);
+	buf buf31(result[0], address[0]);
+
+endmodule

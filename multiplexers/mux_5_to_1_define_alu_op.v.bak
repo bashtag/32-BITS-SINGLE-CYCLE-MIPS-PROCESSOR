@@ -1,0 +1,28 @@
+module mux_5_to_1_define_alu_op(
+	output [2:0] ALUop,
+	input [5:0] opcode
+);
+	wire is_and, is_or, is_add, is_sub, is_slt;
+	wire [2:0] select [4:0];
+	
+	and and0(is_and, opcode[2], !opcode[1], !opcode[0]);
+	and and1(is_slt, !opcode[5], opcode[2], opcode[1], opcode[0]);
+	
+	// add
+	wire is_addi;
+	and and2(is_addi, opcode[1], !opcode[0]);
+	or or0(is_add, is_addi, opcode[3], opcode[4]);
+	
+	// or
+	wire is_ori, is_move;
+	and and3(is_ori, opcode[2], !opcode[1], opcode[0]);
+	and and4(is_move, opcode[5], !opcode[0]);
+	or or1(is_or, is_ori, is_move);
+	
+	// sub
+	wire subi_beq, is_bne;
+	and and5(subi_beq, !opcode[2], opcode[1], opcode[0]);
+	and and6(is_bne, opcode[5], opcode[2], opcode[1], opcode[0]);
+	or or2(is_sub, subi_beq, is_bne);
+
+endmodule

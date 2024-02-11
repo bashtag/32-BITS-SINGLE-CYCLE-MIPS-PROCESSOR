@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at mips.v(51): always construct contains both blocking and non-blocking assignments File: C:/Users/btsts/Desktop/GitHUB/Theoretical/Computer Organization/Project3/processor_modules/mips.v Line: 51
