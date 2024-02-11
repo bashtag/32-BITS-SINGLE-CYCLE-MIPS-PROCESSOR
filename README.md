@@ -1,6 +1,6 @@
 # 32-Bit MIPS Processor Project
 
-This project presents a structural VHDL implementation of a 32-bit MIPS processor, adhering to the Harvard architecture for instruction storage. Utilizing a custom assembler, the processor interprets assembly code, converting it into binary instructions stored in `instructions.mem`. The project integrates the ALU design from a previous project and manages data through `instructions.mem`, `registers.mem`, and `memory.mem`.
+This project presents a structural VHDL implementation of a 32-bit MIPS processor, adhering to the Harvard architecture for instruction storage. Utilizing a custom assembler, the processor interprets assembly code, converting it into binary instructions stored in `instructions.mem`. The project integrates the ALU design from a previous project and manages data through `instructions.mem`, `registers.mem`, and `memory.mem`. [Previous 32-Bit ALU Project](https://github.com/bashtag/Arithmetic-Logic-Unit-With-CLL)
 
 ## Project Structure
 
